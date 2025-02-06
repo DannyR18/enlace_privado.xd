@@ -37,7 +37,7 @@ p {
 /* starts here */
 
 body {
-  background-color: palegoldenrod;
+  background-color: #f8a1c7;
   height: 100vh;
 
   & main {
@@ -89,18 +89,18 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: palegoldenrod;
+  background-color: #f8a1c7;
   /* display: flex; */
   display: none;
   justify-content: center;
   align-items: center;
 
   & h1 {
-    font-size: 3rem;
+    font-size: .5rem;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     animation: palpitation 2s ease-in-out infinite;
-    line-height: 4rem;
+    line-height: 1rem;
   }
 }
 
